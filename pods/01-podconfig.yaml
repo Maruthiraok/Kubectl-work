@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: nginx
+    image: nginx:alpine
     env:
     - name: course
       valueFrom:
@@ -18,4 +18,3 @@ spec:
         configMapKeyRef:
           name: course-config
           key: duration
-          
