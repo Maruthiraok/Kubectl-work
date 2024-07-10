@@ -25,10 +25,10 @@ metadata:
  name: configPod
 spec:
  containers:
-  -name: nginx
-  image: nginx
-  envFrom:
-   -configMapRef: 
-     name: course-config
+ - name: nginx
+   image: nginx
+   envFrom:
+    -configMapRef: 
+      name: course-config
 
   
