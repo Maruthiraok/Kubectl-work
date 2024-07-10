@@ -5,8 +5,8 @@ metadata:
   name: config-pod
 spec:
   containers:
-  - name: nginx:alpine
-    image: nginx:alpine
+  - name: nginx
+    image: nginx:latest
     env:
     - name: course
       valueFrom:
