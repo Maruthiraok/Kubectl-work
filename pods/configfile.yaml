@@ -1,7 +1,7 @@
 apiVersion: v1
-kind: configMap
+kind: ConfigMap
 metadata:
- name: course-config
+  name: course-config
 data:
- cource: docker
- duration: 25hr
+  course: docker
+  duration: 30hr
