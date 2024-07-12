@@ -26,7 +26,7 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: nginx:latest
+    image: nginx:1.14.2
     envFrom:
       - configMapRef:
             name: course-config
